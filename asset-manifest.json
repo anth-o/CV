@@ -1,21 +1,15 @@
 {
   "files": {
-    "main.css": "/CV-dumaine-antony/static/css/main.26f59c18.css",
-    "main.js": "/CV-dumaine-antony/static/js/main.c88e1f41.js",
-    "static/js/453.67411d34.chunk.js": "/CV-dumaine-antony/static/js/453.67411d34.chunk.js",
-    "static/media/SophieBluel.png": "/CV-dumaine-antony/static/media/SophieBluel.8e53012bb33a61b16e8d.png",
-    "static/media/Kasa.png": "/CV-dumaine-antony/static/media/Kasa.d563c24eca5df80b5d69.png",
-    "static/media/NinaCarducci.png": "/CV-dumaine-antony/static/media/NinaCarducci.5040a14afbe134b4284e.png",
-    "static/media/MonVieuxGrimoire.png": "/CV-dumaine-antony/static/media/MonVieuxGrimoire.8d94c4db7d2a34869251.png",
-    "static/media/Booki.png": "/CV-dumaine-antony/static/media/Booki.22fff12a4f4008b47c5e.png",
-    "static/media/MenuMaker.png": "/CV-dumaine-antony/static/media/MenuMaker.fb48194e75ecd1529f32.png",
-    "index.html": "/CV-dumaine-antony/index.html",
-    "main.26f59c18.css.map": "/CV-dumaine-antony/static/css/main.26f59c18.css.map",
-    "main.c88e1f41.js.map": "/CV-dumaine-antony/static/js/main.c88e1f41.js.map",
-    "453.67411d34.chunk.js.map": "/CV-dumaine-antony/static/js/453.67411d34.chunk.js.map"
+    "main.css": "/CV-dumaine-anthony/static/css/main.63916eaa.css",
+    "main.js": "/CV-dumaine-anthony/static/js/main.ab530c21.js",
+    "static/js/453.67411d34.chunk.js": "/CV-dumaine-anthony/static/js/453.67411d34.chunk.js",
+    "index.html": "/CV-dumaine-anthony/index.html",
+    "main.63916eaa.css.map": "/CV-dumaine-anthony/static/css/main.63916eaa.css.map",
+    "main.ab530c21.js.map": "/CV-dumaine-anthony/static/js/main.ab530c21.js.map",
+    "453.67411d34.chunk.js.map": "/CV-dumaine-anthony/static/js/453.67411d34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26f59c18.css",
-    "static/js/main.c88e1f41.js"
+    "static/css/main.63916eaa.css",
+    "static/js/main.ab530c21.js"
   ]
 }
