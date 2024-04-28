@@ -1,0 +1,33 @@
+.contact {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    &__container {
+        max-width: 1300px;  
+    }
+    ul {
+        list-style-type: none;
+    }
+    li{
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &__icone {
+        color: #315c99;
+        padding-right: 10px;   
+    }
+    &__container a {
+        text-decoration: none;
+        color: black;
+    }
+    &__container a:hover {
+        color: #315c99;
+    }
+    
+}
+
+.iconeFirst {
+    margin-left: 2px;
+}
