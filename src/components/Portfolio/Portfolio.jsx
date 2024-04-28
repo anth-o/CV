@@ -24,7 +24,7 @@ function Portfolio() {
 
     return (
         <section className="portfolio" id="Portfolio">
-            <h2 className="portfolio-title">Mes projets</h2>
+            <h3 className="portfolio-title">Mes projets</h3>
             <div className="portfolio-container">
                 {portfolio.map(project => (
                     <div key={project.id} className="card">
@@ -39,7 +39,7 @@ function Portfolio() {
             {selectedProject && (
                 <div className="modal">
                     <div className="modal__content">
-                        <div className="modal__btn-close"><FontAwesomeIcon icon={faXmark} onClick={closeModal}/></div>
+                        <div className="modal__btn-close" onClick={closeModal}><FontAwesomeIcon icon={faXmark} onClick={closeModal} className="modal__btn-close__icone"/></div>
                         <h2 className="modal__title">{selectedProject.title}</h2>
                         <div className="modal__tags">
                             {selectedProject.techno.map((tech, index) =>
