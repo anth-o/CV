@@ -12,6 +12,11 @@
     }
     &__navbar li {
         list-style-type: none;
+        opacity: 0;
+        transition: opacity 2s ease;
+    }
+    &__navbar li {
+        opacity: 1;
     }
     &__navbar a {
         display: inline-block;

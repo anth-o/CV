@@ -1,60 +1,63 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Portfolio.scss";
-import KasaImg from "../../img/Kasa.png";
-import BookiImg from "../../img/Booki.png";
-import SophieBluelImg from "../../img/SophieBluel.png";
-import MenuMakerImg from "../../img/MenuMaker.png";
-import NinaCarducciImg from "../../img/NinaCarducci.png";
-import MonVieuxGrimoireImg from "../../img/MonVieuxGrimoire.png";
+import JsonProjets from "../../datas/projets.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function Portfolio() {
+
+    const [portfolio, setPortfolio] = useState([]);
+
+    useEffect(() => {
+        setPortfolio(JsonProjets)
+    }, []);
+
+    const [selectedProject, setSelectedProject] = useState(null);
+
+    const openModal = (project) => {
+        setSelectedProject(project);
+    };
+
+    const closeModal = () => {
+        setSelectedProject(null);
+    };
+
     return (
-        <section className="portfolio">
+        <section className="portfolio" id="Portfolio">
             <h2 className="portfolio-title">Mes projets</h2>
             <div className="portfolio-container">
-                <div className="card">
-                    <img className="card__img" src={KasaImg} alt="Site Kasa" />
-                    <div className="card__gradient"></div>
-                    <h2 className="card__title">Kasa</h2>
-                    <div className="card__overlay"></div>
-                    <button className="card__btn">Click</button>
-                </div>
-                <div className="card">
-                    <img className="card__img" src={BookiImg} alt="Site Booki" />
-                    <div className="card__gradient"></div>
-                    <h2 className="card__title">Booki</h2>
-                    <div className="card__overlay"></div>
-                    <button className="card__btn">Click</button>
-                </div>
-                <div className="card">
-                    <img className="card__img" src={SophieBluelImg} alt="Site Sophie Bluel" />
-                    <div className="card__gradient"></div>
-                    <h2 className="card__title">Sophie Bluel</h2>
-                    <div className="card__overlay"></div>
-                    <button className="card__btn">Click</button>
-                </div>
-                <div className="card">
-                    <img className="card__img" src={MenuMakerImg} alt="Projet Menu Maker" />
-                    <div className="card__gradient"></div>
-                    <h2 className="card__title">Menu Maker</h2>
-                    <div className="card__overlay"></div>
-                    <button className="card__btn">Click</button>
-                </div>
-                <div className="card">
-                    <img className="card__img" src={NinaCarducciImg} alt="Site Nina Carducci" />
-                    <div className="card__gradient"></div>
-                    <h2 className="card__title">Nina Carducci</h2>
-                    <div className="card__overlay"></div>
-                    <button className="card__btn">Click</button>
-                </div>
-                <div className="card">
-                    <img className="card__img" src={MonVieuxGrimoireImg} alt="Site Mon Vieux Grimoire" />
-                    <div className="card__gradient"></div>
-                    <h2 className="card__title">Mon Vieux Grimoire</h2>
-                    <div className="card__overlay"></div>
-                    <button className="card__btn">Click</button>
-                </div>
+                {portfolio.map(project => (
+                    <div key={project.id} className="card">
+                        <img className="card__img" src={project.cover} alt={project.title} />
+                        <div className="card__gradient"></div>
+                        <h2 className="card__title">{project.title}</h2>
+                        <div className="card__overlay"></div>
+                        <button onClick={() => openModal(project)} className="card__btn">Click</button>
+                    </div>
+                ))}
             </div>
+            {selectedProject && (
+                <div className="modal">
+                    <div className="modal__content">
+                        <div className="modal__btn-close"><FontAwesomeIcon icon={faXmark} onClick={closeModal}/></div>
+                        <h2 className="modal__title">{selectedProject.title}</h2>
+                        <div className="modal__tags">
+                            {selectedProject.techno.map((tech, index) =>
+                                <p key={index} className="modal__tag">{tech}</p>)}
+                        </div>
+                        <div className="modal__contexte">
+                            <h3>Contexte</h3>
+                            <p>{selectedProject.contexte}</p>
+                        </div>
+                        <hr></hr>
+                        <div className="modal__description">
+                            <h3>Description</h3>
+                            <p>{selectedProject.contexte}</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            )}
         </section>
     )
 }

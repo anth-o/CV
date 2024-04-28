@@ -22,7 +22,7 @@ function Header() {
                         <a href="#">Compétences</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="#Portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a href="#">A propos</a>
