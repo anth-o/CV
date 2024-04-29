@@ -2,7 +2,7 @@ import React from "react";
 import "./Presentation.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
-import { faUser, faCar, faCity, faFutbol } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faCar, faCity, faFutbol, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
 function Presentation() {
@@ -17,6 +17,7 @@ function Presentation() {
                         <li><FontAwesomeIcon icon={faCar} className="presentation__container__list__icone"/><span className="presentation__container__list__span">Permis :</span> B - A2</li>
                         <li><FontAwesomeIcon icon={faCity} className="presentation__container__list__icone"/><span className="presentation__container__list__span">Ville :</span> Nice</li>
                         <li><FontAwesomeIcon icon={faFutbol} className="presentation__container__list__icone"/><span className="presentation__container__list__span">Hobbies :</span> Handball, automobile, informatique</li>
+                        <li><FontAwesomeIcon icon={faBriefcase} className="presentation__container__list__icone"/><span className="presentation__container__list__span">Expériences professionnelles :</span><br/> - 08/2023 Livreur à Azuréenne Location<br/>- 11/2022 à 08/2023 Ouvrier à Entreprise Provencale de Menuiserie<br/> - 2020 à 2022 logisticien/préparateur de commande à Espace Bricolage lors des vacances scolaires</li>
                     </ul>
                 </div>
                 <div className="presentation__container__div-text">
