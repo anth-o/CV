@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CV-dumaine-anthony/static/css/main.88819189.css",
-    "main.js": "/CV-dumaine-anthony/static/js/main.857f1833.js",
+    "main.css": "/CV-dumaine-anthony/static/css/main.0b0833a4.css",
+    "main.js": "/CV-dumaine-anthony/static/js/main.8e4286de.js",
     "static/js/453.67411d34.chunk.js": "/CV-dumaine-anthony/static/js/453.67411d34.chunk.js",
     "index.html": "/CV-dumaine-anthony/index.html",
-    "main.88819189.css.map": "/CV-dumaine-anthony/static/css/main.88819189.css.map",
-    "main.857f1833.js.map": "/CV-dumaine-anthony/static/js/main.857f1833.js.map",
+    "main.0b0833a4.css.map": "/CV-dumaine-anthony/static/css/main.0b0833a4.css.map",
+    "main.8e4286de.js.map": "/CV-dumaine-anthony/static/js/main.8e4286de.js.map",
     "453.67411d34.chunk.js.map": "/CV-dumaine-anthony/static/js/453.67411d34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88819189.css",
-    "static/js/main.857f1833.js"
+    "static/css/main.0b0833a4.css",
+    "static/js/main.8e4286de.js"
   ]
 }
