@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Home.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faChevronDown} from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 function Home() {
     const [isVisible, setIsVisible] = useState(false);
@@ -9,7 +10,7 @@ function Home() {
     useEffect(() => {
         setIsVisible(true);
     }, []);
-
+    
     return (
         <section>
             <div className={`home ${isVisible ? 'visible' : ''}`}>
@@ -17,7 +18,7 @@ function Home() {
                 <h2 className="home__dev"><FontAwesomeIcon icon={faCode} className="icone__dev"/>Développeur web</h2>
             </div>
             <div className="div-chevron">
-                <FontAwesomeIcon icon={faChevronDown} className="home__chevron"/>
+                <Link to="presentation" smooth={true} duration={1000} offset={-50}><FontAwesomeIcon icon={faChevronDown} className="home__chevron"/></Link>
             </div>
         </section>
     );

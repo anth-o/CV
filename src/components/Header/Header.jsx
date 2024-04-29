@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Header.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 function Header() {
 
@@ -15,21 +16,10 @@ function Header() {
         <header className="header">
             <nav className={`header__navbar ${isOpen ? "open" : ""}`}>
                 <ul>
-                    <li>
-                        <a href="#">Présentation</a>
-                    </li>
-                    <li>
-                        <a href="#">Compétences</a>
-                    </li>
-                    <li>
-                        <a href="#Portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">A propos</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
+                    <li><Link to="presentation" smooth={true} duration={1000} offset={-50}>Présentation</Link></li>
+                    <li><Link to="competences" smooth={true} duration={1000} offset={-50}>Compétences</Link></li>
+                    <li><Link to="portfolio" smooth={true} duration={1000} offset={-50}>Portfolio</Link></li>
+                    <li><Link to="contact" smooth={true} duration={1000} offset={-50}>Contact</Link></li>
                 </ul>
                 <div onClick={handleClick} className={`header__mobile-icone ${isOpen ? "open" : ""}`}><FontAwesomeIcon icon={isOpen ? faXmark : faBars} className="icone-menu" /></div>
             </nav>

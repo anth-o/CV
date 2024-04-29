@@ -3,6 +3,7 @@ import "./Presentation.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
 import { faUser, faCar, faCity, faFutbol } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 function Presentation() {
     return(
@@ -23,7 +24,7 @@ function Presentation() {
                 </div>
             </div>
             <div className="presentation__button__container">
-                <button className="presentation__button">Me contacter</button>
+                <Link to="contact" smooth={true} duration={1000} offset={-50}><button className="presentation__button">Me contacter</button></Link>
                 <button className="presentation__button">Télécharger mon CV</button>
             </div>
         </section>
