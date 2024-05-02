@@ -7,9 +7,9 @@
     align-items: center;
     padding: 50px 0;
     &__title {
-        font-size: 30px;
+        font-size: 35px;
         color: #fff;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
     &__text {
         color: #fff;
@@ -29,9 +29,10 @@
             li{
                 text-align: left;
                 margin-bottom: 10px;
-                font-size: 18px;
+                font-size: 22px;
                 font-weight: 500;
                 color: #fff;
+                padding-bottom: 10px;
             }
             a {
                 text-decoration: none;

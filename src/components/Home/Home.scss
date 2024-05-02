@@ -13,7 +13,7 @@
         opacity: 0;
         transform: translateX(-100%);
         transition: opacity 1.5s ease, transform 1.5s ease;
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     &__dev {
@@ -22,7 +22,7 @@
         opacity: 0; 
         transform: translateX(100%); 
         transition: opacity 1s ease-out, transform 1s ease-out; 
-        font-size: 2.1rem;
+        font-size: 2.5rem;
         .icone__dev {
             padding-right: 20px;
         }

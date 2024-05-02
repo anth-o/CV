@@ -52,7 +52,7 @@ function Portfolio() {
                         <hr></hr>
                         <div className="modal__description">
                             <h3>Description</h3>
-                            <p>{selectedProject.contexte}</p>
+                            <p>{selectedProject.description}</p>
                         </div>
                         {selectedProject.github && (
                             <div className="modal__div-btn">

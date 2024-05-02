@@ -12,14 +12,18 @@ function Header() {
         setIsOpen(!isOpen);
     }
 
+    const handleCloseMobileNav = () => {
+        setIsOpen(false);
+    }
+
     return (
         <header className="header">
             <nav className={`header__navbar ${isOpen ? "open" : ""}`}>
                 <ul>
-                    <li><Link to="presentation" smooth={true} duration={1000} offset={-50}>Présentation</Link></li>
-                    <li><Link to="portfolio" smooth={true} duration={1000} offset={-50}>Portfolio</Link></li>
-                    <li><Link to="competences" smooth={true} duration={1000} offset={-50}>Compétences</Link></li>
-                    <li><Link to="contact" smooth={true} duration={1000} offset={-50}>Contact</Link></li>
+                    <li><Link to="presentation" smooth={true} duration={1000} offset={-50} onClick={handleCloseMobileNav}>Présentation</Link></li>
+                    <li><Link to="portfolio" smooth={true} duration={1000} offset={-50} onClick={handleCloseMobileNav}>Portfolio</Link></li>
+                    <li><Link to="competences" smooth={true} duration={1000} offset={-50} onClick={handleCloseMobileNav}>Compétences</Link></li>
+                    <li><Link to="contact" smooth={true} duration={1000} offset={-50} onClick={handleCloseMobileNav}>Contact</Link></li>
                 </ul>
                 <div onClick={handleClick} className={`header__mobile-icone ${isOpen ? "open" : ""}`}><FontAwesomeIcon icon={isOpen ? faXmark : faBars} className="icone-menu" /></div>
             </nav>
@@ -27,4 +31,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header;

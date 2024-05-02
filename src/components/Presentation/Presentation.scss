@@ -1,32 +1,33 @@
 .presentation {
     margin: 0;
-    padding: 50px 0;
+    padding: 50px 0 150px;
     background-color: #ececec;
     &__title {
-        font-size: 30px;
+        font-size: 35px;
         color: #315c99;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
     &__container{
         display: flex;
         justify-content: center;
-        width: 900px;
         margin: auto;
         &__list {
-            margin-right: 40px;
-            width: 300px;
+            margin-right: 80px;
+            width: 333px;
             border-right: 2px solid #315c99;
-            padding-right: 20px;
+            padding-right: 80px;
             li{
                 text-align: left;
                 list-style-type: none;
-                padding-bottom: 8px;
-                
+                padding-bottom: 20px;
+                font-weight: bolder;
+                font-size: 20px;
             }
             &__icone {
                 width: 24px;
                 height: 24px;
                 color: #315c99;
+                margin-right: 10px;
             }
             &__span {
                 padding-left: 10px;
@@ -34,34 +35,84 @@
             }
         }
         &__div-text {
-            width: 400px;
+            width: 333px;
+            border-right: 2px solid #315c99;
+            padding-right: 80px;
+            margin-right: 80px;
         }
         &__text {
-            font-size: 18px;
+            font-size: 22px;
+            font-weight: 600;
             text-align: left;
-            line-height: 25px;
-            margin-top: 0;
+            line-height: 35px;
+            margin-top: 15px;
+
         }
-        
+        &__div-opc {
+            width: 333px;
+            &__title {
+                display: flex;
+                flex-direction: row;
+                align-items: baseline;
+                align-content: center;
+                width: 600px;
+            }
+            &__sous-title{
+                text-align: left;
+                margin-top: 0;
+                font-size: 16px;
+            }
+            img {
+                margin-top: 15px;
+                height: 30px;
+            }
+            .icone-certificate {
+                color: green;
+                height: 30px;
+                margin: 0 10px;
+            }
+            h4 {
+                transform: translateY(-5px);
+                font-size: 22px;
+            }
+            ul {
+                text-align: left;
+                width: 600px;
+                max-width: 600px;
+                margin-top: 0;
+                padding-left: 20px;
+            }
+            li {
+                font-size: 18px;
+                font-weight: 500;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            a:hover {
+                color: #315c99;
+            }
+        }
     }
     &__button__container {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin: auto;
         max-width: 800px;
-        margin-top: 20px;
+        margin-top: 80px;
     }
     &__button {
-        height: 3em;
-        width: 8em;
+        padding: 15px 25px;
         border: none;
         border-radius: 10em;
-        background: #016DD9;
+        background: #315c99;
         font-size: 17px;
         color: #ffffff;
         font-family: inherit;
         font-weight: 500;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        cursor: pointer;
         }
         
     &__button:hover {
@@ -104,25 +155,45 @@
 
 @media screen and (max-width: 940px) {
     .presentation {
+        padding-bottom: 100px;
         &__container {
             flex-direction: column;
             justify-content: center;
             align-items: center;
             width: 100%;
             &__list {
-                width: 80%;
+                width: 100%;
                 margin: 0;
                 border: none;
                 padding: 0;
             }
             &__div-text {
                 width: 80%;
-                border-left: none;
+                border-right: none;
                 border-top: 2px solid #315c99;
-                padding: 20px 5px;
+                border-bottom: 2px solid #315c99;
+                padding: 20px 20px;
+                margin: 0 20px;
+            }
+            &__div-opc {
+                width: 80%;
+                margin: 20px 20px 0 20px;
+                &__title {
+                    width: 100%;
+                }
+                h4 {
+                    font-size: 20px;
+                }
+                ul {
+                    width: 100%;
+                }
             }
         }
-        
-
+        &__button__container {
+            flex-direction: column;
+        }
+        &__button {
+            margin-bottom: 50px;
+        }
     }
 }
