@@ -54,7 +54,11 @@ function Portfolio() {
                             <h3>Description</h3>
                             <p>{selectedProject.contexte}</p>
                         </div>
-                        
+                        {selectedProject.github && (
+                            <div className="modal__div-btn">
+                                <a href={selectedProject.github}><button className="modal__btn">Lien vers GitHub</button></a>
+                            </div>
+                        )}
                     </div>
                 </div>
             )}

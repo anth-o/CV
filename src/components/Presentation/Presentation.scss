@@ -1,6 +1,7 @@
 .presentation {
     margin: 0;
     padding: 50px 0;
+    background-color: #ececec;
     &__title {
         font-size: 30px;
         color: #315c99;
@@ -60,6 +61,7 @@
         color: #ffffff;
         font-family: inherit;
         font-weight: 500;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
         
     &__button:hover {

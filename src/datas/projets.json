@@ -11,7 +11,8 @@
             "NodeJS"
             ],
         "contexte": "Kasa est spécialiste de la location entre particuliers en France depuis 10 ans et une refonte totale pour leur site a été mise en place par Laura la CTO. Vous êtes recruté par Kasa en tant que développeur front-end freelance, avec pour objectif de créer une application web de location immobilière en utilisant React.",
-        "description": " "
+        "description": " ",
+        "github": "https://github.com/anth-o/Projet-6"
     },
     {
         "id": "1",
@@ -22,7 +23,8 @@
             "CSS"
         ],
         "contexte": "Vous débutez une alternance en tant que développeur web au sein de la start-up Booki, et vous travaillez en étroite collaboration avec Sarah la CTO, et Loïc l'UI designer. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Cette interface devra être responsive et respectée la maquette fournie sur Figma.",
-        "description": ""
+        "description": "",
+        "github": "https://github.com/anth-o/Projet2"
     },
     {
         "id": "2",
@@ -35,7 +37,8 @@
             "MongoDB"
         ],
         "contexte": "Vous êtes développeur back-end en freelance, et vous allez collaborer avec Kevin un développeur front-end, sur la réalisation du site “Mon vieux grimoire“. Ce site est pour un client possédant une chaîne de librairies nommée “Le Vieux Grimoire“. Ce site doit permettre aux membres d'ajouter des livres avec des notes publiques. Kevin est chargé de réaliser le front end du site, et vous, devrez développer le backend du site avec notamment la mise en place l'API, en utilisant NodeJS et son framework Express. Kevin qui a terminé le front-end du site vous envoie les spécifications techniques de l'API, et le code du front-end sur Github. De plus, il vous explique que pour que le projet soit conforme aux bonnes pratiques du Green Code, il faut qu’on prenne en compte la taille des images. Il faudra donc que dans le back-end, vous optimisiez les images qui seront envoyées par les utilisateurs.",
-        "description": ""
+        "description": "",
+        "github": "https://github.com/anth-o/Projet-7"
     },
     {
         "id": "3",
@@ -49,7 +52,8 @@
             "CSS"
         ],
         "contexte": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos, et vous êtes envoyé en renfort comme développeur front-end au sein d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur. Après la réunion pour échanger sur le projet, Charlotte (la cheffe de projet), vous envoie en pièces jointes tout ce dont vous aurez besoin pour pouvoir réaliser vos misions, soit: le Figma du design qui vous servira à créer les nouvelles fonctionnalités, le code back-end qui vous permettra de faire persister les données et de tester les fonctionnalités, le code front-end d’origine avec la version statique de la page de l’architecte, et finalement, le Kanban pour la mission pour que vous puissiez voir les tâches qui vous sont attribuées. Vos 3 missions principales sont donc: développer la page de présentation des travaux de l'architecte (à partir du HTML fourni), développer la page de connexion de l'administrateur du site (le client) (code à créer de zéro), et développer la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
-        "description": ""
+        "description": "",
+        "github": "https://github.com/anth-o/Projet3"
     },
     {
         "id": "4",
@@ -65,7 +69,8 @@
             "Rich Snippets"
         ],
         "contexte": "Vous êtes développeur freelance, et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Nina répond positivement à votre demande en vous demandant une optimisation pour son site de photographe. Pour réaliser votre mission, vous allez donc : faire une optimisation globale du site, tant sur les performances que sur le SEO, mettre en place le référencement local en utilisant Schema.org, ajouter les metas pour les réseaux sociaux, faire les modifications liées à l’accessibilité du site, et produire un rapport d’intervention détaillé à destination de Nina pour présenter toutes vos actions/optimisations et leur impact. Dans ce rapport, vous fournirez les performances du site avant et après optimisation (en vous basant sur des audits Lighthouse pour les performances, et sur des audits Wave pour l’accessibilité), ainsi que la liste des modifications que vous avez apporté au site. À la demande de Nina, vous débuggerez le code, soit: la navigation dans la modale de la galerie entre images précédente et suivante ne fonctionne pas, et lorsque l’on change de filtre pour afficher les images, on ne voit pas quelle catégorie est sélectionnée (celle-ci devrait avoir la couleur dorée en fond comme pour le filtre par défaut).",
-        "description": ""
+        "description": "",
+        "github": "https://github.com/anth-o/Projet5"
     },
     {
         "id": "5",
