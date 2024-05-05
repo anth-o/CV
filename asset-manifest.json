@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CV-dumaine-anthony/static/css/main.e95aabfe.css",
+    "main.css": "/CV-dumaine-anthony/static/css/main.f67dcc45.css",
     "main.js": "/CV-dumaine-anthony/static/js/main.cc4f42c3.js",
     "static/js/453.67411d34.chunk.js": "/CV-dumaine-anthony/static/js/453.67411d34.chunk.js",
     "static/media/CVDumaineAnthony.pdf": "/CV-dumaine-anthony/static/media/CVDumaineAnthony.11d633bfd167dbd4635b.pdf",
     "index.html": "/CV-dumaine-anthony/index.html",
-    "main.e95aabfe.css.map": "/CV-dumaine-anthony/static/css/main.e95aabfe.css.map",
+    "main.f67dcc45.css.map": "/CV-dumaine-anthony/static/css/main.f67dcc45.css.map",
     "main.cc4f42c3.js.map": "/CV-dumaine-anthony/static/js/main.cc4f42c3.js.map",
     "453.67411d34.chunk.js.map": "/CV-dumaine-anthony/static/js/453.67411d34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e95aabfe.css",
+    "static/css/main.f67dcc45.css",
     "static/js/main.cc4f42c3.js"
   ]
 }
